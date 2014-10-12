@@ -2,6 +2,10 @@
 
 public abstract class Beverage
 {
-//    private $description = 'unkcnown beverage';
+    private $description = 'unknown beverage';
 
+    public function getDescription()
+    {
+        return $this->description;
+    }
 }

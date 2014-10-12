@@ -1,11 +1,14 @@
 <?php
 
-public abstract class Beverage
+abstract class Beverage
 {
-    private $description = 'unknown beverage';
+    protected $description = 'unknown beverage';
+    protected $cost = 0;
 
     public function getDescription()
     {
         return $this->description;
     }
+
+    abstract public function cost();
 }

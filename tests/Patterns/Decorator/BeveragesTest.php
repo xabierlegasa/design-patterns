@@ -2,7 +2,7 @@
 
 class BeveragesTest extends \PHPUnit_Framework_TestCase
 {
-    function testDoubleMochaSoyLatteWithWhipCost()
+    function test_double_mocka_soy_latte_with_whip_cost_is_correct()
     {
         $beverage = new HouseBlend();
         $beverage = new Mocha($beverage);

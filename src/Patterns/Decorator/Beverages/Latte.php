@@ -1,5 +1,7 @@
 <?php
 
+namespace DesignPatterns\Patterns\Decorator\Beverages;
+
 class Latte extends CondimentDecorator
 {
     private $beverage;

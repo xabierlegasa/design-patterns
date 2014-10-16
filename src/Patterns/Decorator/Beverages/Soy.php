@@ -1,5 +1,7 @@
 <?php
 
+namespace DesignPatterns\Patterns\Decorator\Beverages;
+
 class Soy extends CondimentDecorator
 {
     private $beverage;

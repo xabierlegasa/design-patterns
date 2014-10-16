@@ -1,5 +1,9 @@
 <?php
 
+namespace DesignPatterns\Tests\Patterns\Singleton;
+
+use DesignPatterns\Patterns\Singleton\Cache\Cache;
+
 class CacheTest extends \PHPUnit_Framework_TestCase
 {
     function test_cache_insteance_is_the_same_always()

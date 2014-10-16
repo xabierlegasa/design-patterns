@@ -1,5 +1,7 @@
 <?php
 
+namespace DesignPatterns\Patterns\Decorator\Beverages;
+
 class Whip extends CondimentDecorator
 {
     private $beverage;

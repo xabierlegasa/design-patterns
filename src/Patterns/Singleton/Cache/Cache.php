@@ -1,5 +1,7 @@
 <?php
 
+namespace DesignPatterns\Patterns\Singleton\Cache;
+
 class Cache
 {
     private static $cacheInstance;

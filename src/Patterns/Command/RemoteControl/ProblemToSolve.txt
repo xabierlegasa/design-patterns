@@ -1,0 +1,5 @@
+Create a remote control that has an on and off button to:
+- Turn the light on/off
+- Open or close the garage ...
+
++ Undo button that undoes last option

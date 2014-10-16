@@ -1,5 +1,7 @@
 <?php
 
+namespace DesignPatterns\Patterns\Decorator\Beverages;
+
 abstract class Beverage
 {
     protected $description = 'unknown beverage';

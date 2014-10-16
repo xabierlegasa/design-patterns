@@ -1,5 +1,7 @@
 <?php
 
+namespace DesignPatterns\Patterns\Decorator\Beverages;
+
 class Mocha extends CondimentDecorator
 {
     private $beverage;

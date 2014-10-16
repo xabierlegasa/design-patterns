@@ -20,6 +20,6 @@ class SimpleRemoteControl
 
     public function buttonWasPressed()
     {
-        $this->command->execute();
+        return $this->command->execute();
     }
 }

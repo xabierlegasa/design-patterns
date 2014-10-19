@@ -1,0 +1,6 @@
+Problem:
+    There is a class that expects a Duck class. We want to convert a Turkey so we can use it as if it was a duck
+
+
+Solution:
+    Object Adapter. We Create a Duck interface and a TurkeyAdapter that will implement this interface, playing as a duck

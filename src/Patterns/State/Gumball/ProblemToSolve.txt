@@ -1,0 +1,2 @@
+Create a gumball machine software, in order to make it easy to insert new states in the machine.
+As a game, we have to give two gumbs instead of one, one of ten times.
